@@ -1,22 +1,16 @@
 {
-  "name": "ARUM",
+  "name": "Nodejs_with_graphql",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
+    "start": "tsc && node dist/app.js",
+    "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/avinashchavanfidel/Aurum-demo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/avinashchavanfidel/Aurum-demo/issues"
-  },
-  "homepage": "https://github.com/avinashchavanfidel/Aurum-demo#readme",
+  "description": "",
   "devDependencies": {
     "@types/express": "^4.17.1",
     "@types/jest": "^27.4.0",
